@@ -43,8 +43,11 @@ npx eslint .
 
 ### Troubleshooting certificate errors
 
-If you use a self-signed certificate, you may need to disable Node's validation:
+If you use a self-signed certificate (emulator, Docker, etc.), you may need to disable Node's validation:
 
 ```javascript
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0
+const client = new MongoClient(
+  ...,
+  { tlsAllowInvalidCertificates: true }
+)
 ```
