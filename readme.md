@@ -1,6 +1,6 @@
 # Azure Cosmos DB for MongoDB client library samples for JavaScript
 
-
+[![Validate Node.js projects](https://github.com/Azure-Samples/cosmos-db-mongodb-javascript-samples/actions/workflows/validate.yml/badge.svg)](https://github.com/Azure-Samples/cosmos-db-mongodb-javascript-samples/actions/workflows/validate.yml)
 
 ## Getting started
 
