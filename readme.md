@@ -19,11 +19,11 @@ export COSMOS_KEY="<cosmos-account-PRIMARY-KEY>"
 
 > **💡 TIP**: If you don't have an Azure Cosmos DB account, [create a free account](https://cosmos.azure.com/try/).
 
-Run the quickstart sample app using the [`@azure/cosmos`](https://www.npmjs.com/package/@azure/cosmos) package from NPM.
+Run the quickstart sample app using the [`mongodb`](https://www.npmjs.com/package/mongodb) package from NPM.
 
 ```bash
 cd 001-quickstart/
-npm install @azure/cosmos
+npm install mongodb
 npm run start
 ```
 
